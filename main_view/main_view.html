@@ -27,9 +27,9 @@
             type="radio"
             name="my-input"
             id="sun-buttom"
-          /><label class="panel__button" for="sun-buttom">
+          /><label class="panel__button" id="sun" for="sun-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-sun-60.png" alt="" />
-            Sol</label
+            Sun</label
           >
           <input
             class="panel__checkbox"
@@ -37,9 +37,9 @@
             name="my-input"
             id="mercury-buttom"
           />
-          <label class="panel__button" for="mercury-buttom">
+          <label class="panel__button" id="mercury" for="mercury-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-mercury-60.png" alt="" />
-            Mercurio</label
+            Mercury</label
           >
           <input
             class="panel__checkbox"
@@ -47,7 +47,7 @@
             name="my-input"
             id="venus-buttom"
           />
-          <label class="panel__button" for="venus-buttom">
+          <label class="panel__button" id="venus" for="venus-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-venus-60.png" alt="" />
             Venus</label
           >
@@ -57,9 +57,9 @@
             name="my-input"
             id="earth-buttom"
           />
-          <label class="panel__button" for="earth-buttom">
+          <label class="panel__button" id="earth" for="earth-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-earth-60.png" alt="" />
-            Tierra</label
+            Earth</label
           >
           <input
             class="panel__checkbox"
@@ -67,9 +67,9 @@
             name="my-input"
             id="mars-buttom"
           />
-          <label class="panel__button" for="mars-buttom">
+          <label class="panel__button" id="mars" for="mars-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-mars-60.png" alt="" />
-            Marte</label
+            Mars</label
           >
           <input
             class="panel__checkbox"
@@ -77,7 +77,7 @@
             name="my-input"
             id="jupiter-buttom"
           />
-          <label class="panel__button" for="jupiter-buttom">
+          <label class="panel__button" id="jupiter" for="jupiter-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-jupiter-60.png" alt="" />
             Jupiter</label
           >
@@ -87,9 +87,9 @@
             name="my-input"
             id="saturn-buttom"
           />
-          <label class="panel__button" for="saturn-buttom">
+          <label class="panel__button" id="saturn" for="saturn-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-saturn-60.png" alt="" />
-            Saturno</label
+            Saturn</label
           >
           <input
             class="panel__checkbox"
@@ -97,9 +97,9 @@
             name="my-input"
             id="neptune-buttom"
           />
-          <label class="panel__button" for="neptune-buttom">
+          <label class="panel__button" id="neptune" for="neptune-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-neptune-60.png" alt="" />
-            Neptuno</label
+            Neptune</label
           >
           <input
             class="panel__checkbox"
@@ -107,9 +107,9 @@
             name="my-input"
             id="uranus-buttom"
           />
-          <label class="panel__button" for="uranus-buttom">
+          <label class="panel__button" id="uranus" for="uranus-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-uranus-60.png" alt="" />
-            Urano</label
+            Uranus</label
           >
           <input
             class="panel__checkbox"
@@ -117,10 +117,13 @@
             name="my-input"
             id="pluto-buttom"
           />
-          <label class="panel__button" for="pluto-buttom">
+          <label class="panel__button" id="pluto" for="pluto-buttom" onclick="requestData(this)">
             <img class="panel__img" src="../src/icons8-pluto-60.png" alt="" />
-            Pluton</label
+            Pluto</label
           >
+        </section>
+        <section class="solar-system__central-panel">
+          <p class="solar-system__central-panel__text">hola</p>
         </section>
         <div class="solar-system__sun"></div>
         <div class="solar-system__orbit-mercury">

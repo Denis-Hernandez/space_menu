@@ -28,11 +28,10 @@ body {
 .solar-system {
   background-color: #0A1931;
   display: flex;
-  align-items: center;
   width: calc(100vw - 30px);
   height: calc(100vh - 130px);
   margin: 15px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 30px;
 }
@@ -44,8 +43,7 @@ body {
   border-radius: 30px;
   border: #185ADB 1px solid;
   margin: 15px;
-  margin-right: auto;
-  z-index: 5;
+  z-index: 15;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -80,6 +78,26 @@ body {
 .panel__img {
   height: 1.5em;
   margin-right: 10px;
+}
+
+.solar-system__central-panel {
+  height: calc(100vh - 190px);
+  width: 200px;
+  background-color: #0A1931;
+  border-radius: 30px;
+  border: #185ADB 1px solid;
+  margin: 15px 15px 15px 0px;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+}
+
+.solar-system__central-panel__text {
+  font-family: "Orbitron";
+  color: #FFC947;
+  margin: 0;
 }
 
 .solar-system__sun {
